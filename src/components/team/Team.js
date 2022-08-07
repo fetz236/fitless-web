@@ -66,9 +66,9 @@ export default function Team() {
                 className="sign-up-drop-down"
                 onChange={selectHandler}
                 >
-                <option defaultValue value="user">Team Member</option>
-                <option value="Trainer">Investor</option>
-                <option value="Fitness Center">Other</option>
+                <option defaultValue value="Team Member">Team Member</option>
+                <option value="Investor">Investor</option>
+                <option value="Other">Other</option>
                 </select>
                 <button className='sign-up-btn--primary--rev' type='submit'>Sign Up</button>
             </form>
