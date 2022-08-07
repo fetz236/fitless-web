@@ -40,13 +40,29 @@
   }
   
   @media screen and (max-width: 960px) {
+    .team-container{
+      display:inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20%;
+    }
+
     .team-container > h1 {
       font-size: 70px;
       margin-top: -150px;
     }
+
+
   }
   
   @media screen and (max-width: 768px) {
+    .team-container{
+      display:inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20%;
+    }
+
     .team-container > h1 {
       font-size: 50px;
       margin-top: -100px;
@@ -57,10 +73,10 @@
     }
   
     .btn-mobile {
-      display: block;
+      display: inline-block;
       text-decoration: none;
     }
-  
+    
     .btn {
       width: 100%;
     }

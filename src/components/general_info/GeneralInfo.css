@@ -40,16 +40,27 @@
   }
   
   @media screen and (max-width: 960px) {
+    .general-container{
+      display:inline-block;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20%;
+    }
     .general-container > h1 {
       font-size: 70px;
-      margin-top: -150px;
     }
   }
   
   @media screen and (max-width: 768px) {
+    .general-container{
+      display:inline-block;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60%;
+      margin-bottom: 10%;
+    }
     .general-container > h1 {
       font-size: 50px;
-      margin-top: -100px;
     }
   
     .general-container > p {
@@ -57,7 +68,7 @@
     }
   
     .btn-mobile {
-      display: block;
+      display: inline-block;
       text-decoration: none;
     }
   

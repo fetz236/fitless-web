@@ -182,4 +182,10 @@
   }
   
   @media screen and (max-width: 768px) {
+
+    .input-areas{
+      margin-top: 20%;
+      width:50%;
+    }
+
   }

@@ -61,7 +61,6 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
   
@@ -83,9 +82,9 @@
     }
   
     .nav-menu {
-      display: flex;
+      display: inline-flex;
       flex-direction: column;
-      width: 100%;
+      width: 92%;
       height: 90vh;
       position: absolute;
       top: 80px;
@@ -105,15 +104,11 @@
     .nav-links {
       text-align: center;
       padding: 2rem;
-      width: 100%;
+      width: 80%;
       display: table;
     }
   
-    .nav-links:hover {
-      background-color: #fff;
-      color: #800020;
-      border-radius: 0;
-    }
+
   
     .navbar-logo {
       position: absolute;
@@ -157,4 +152,5 @@
       color: #800020;
       transition: 250ms;
     }
+
   }
